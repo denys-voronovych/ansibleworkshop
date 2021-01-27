@@ -1,5 +1,5 @@
 ---
-- hosts: tag_solution_webserver_devo
+- hosts: webserver_devo
   become: yes
   vars:
     websiteheader: "Ansible Playbook"
